@@ -6,16 +6,18 @@ export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+    setIsMenuOpen((prev) => !prev);
   };
 
   return (
     <div className="bg-[#ED3D63] text-white  top-0 w-full z-10">
       <nav className="container mx-auto flex justify-between items-center p-5">
         {/* Logo */}
+        <Link to="/">
         <div className="text-2xl font-bold flex-shrink-0">
           <img src={logo} alt="Logo" className="h-20 w-20" />
         </div>
+        </Link>
 
         {/* Navigation Links for Desktop */}
         <ul className="hidden md:flex flex-grow justify-center space-x-6">
@@ -81,31 +83,31 @@ export default function Nav() {
         <div className="md:hidden bg-[#ED3D63] text-white">
           <ul className="flex flex-col items-center space-y-4 p-4">
             <li>
-              <Link to="/" className="hover:text-gray-300 cursor-pointer text-xl">Home</Link>
+              <Link to="/" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-300 cursor-pointer text-xl">Home</Link>
             </li>
             <li>
-              <Link to="/review" className="hover:text-gray-300 cursor-pointer text-xl">Reviews</Link>
+              <Link to="/review" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-300 cursor-pointer text-xl">Reviews</Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-gray-300 cursor-pointer text-xl">About Us</Link>
+              <Link to="/about" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-300 cursor-pointer text-xl">About Us</Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-gray-300 cursor-pointer text-xl">Contact Us</Link>
+              <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-300 cursor-pointer text-xl">Contact Us</Link>
             </li>
             <li>
-              <Link to="/blog" className="hover:text-gray-300 cursor-pointer text-xl">Blog</Link>
+              <Link to="/blog" onClick={() => setIsMenuOpen(false)} className="hover:text-gray-300 cursor-pointer text-xl">Blog</Link>
             </li>
             {/* Login & Signup Buttons for Mobile */}
             <li>
               <Link
-                to="/login"
+                to="/login" onClick={() => setIsMenuOpen(false)}
                 className="bg-white text-[#ED3D63] py-2 px-6 rounded hover:bg-gray-100 font-semibold text-xl">
                 Login
               </Link>
-            </li>
+            </li> <br/>
             <li>
               <Link
-                to="/signup"
+                to="/signup" onClick={() => setIsMenuOpen(false)}
                 className="bg-gray-800 py-2 px-6 rounded hover:bg-gray-700 font-semibold text-xl">
                 Signup
               </Link>
