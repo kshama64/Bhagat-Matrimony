@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="71.322" height="67.945" viewBox="0 0 71.322 67.945">
+  <g id="icon-1" transform="translate(-191 -1343)">
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(191 1343)" fill="none" stroke="#ea4087" stroke-width="2">
+      <rect width="64" height="58" rx="6" stroke="none"/>
+      <rect x="1" y="1" width="62" height="56" rx="5" fill="none"/>
+    </g>
+    <line id="Line_3" data-name="Line 3" x2="4" transform="translate(196.5 1348.5)" fill="none" stroke="#ea4087" stroke-width="2"/>
+    <line id="Line_4" data-name="Line 4" x2="4" transform="translate(202.5 1348.5)" fill="none" stroke="#ea4087" stroke-width="2"/>
+    <line id="Line_5" data-name="Line 5" x2="4" transform="translate(208.5 1348.5)" fill="none" stroke="#ea4087" stroke-width="2"/>
+    <line id="Line_6" data-name="Line 6" x2="34" transform="translate(215.5 1348.5)" fill="none" stroke="#ea4087" stroke-width="2"/>
+    <line id="Line_7" data-name="Line 7" x2="63" transform="translate(191.5 1353.5)" fill="none" stroke="#ea4087" stroke-width="2"/>
+    <path id="Path_9" data-name="Path 9" d="M16.25,17.99c3.384,0,6.125-3.13,6.125-7S19.634,4,16.25,4s-6.125,3.13-6.125,7S12.866,17.99,16.25,17.99Zm0,3.5c-4.088,0-12.25,2.343-12.25,7v1.749A1.656,1.656,0,0,0,5.531,31.98H26.969A1.656,1.656,0,0,0,28.5,30.232V28.483C28.5,23.831,20.338,21.488,16.25,21.488Z" transform="translate(192.5 1359.952)" fill="none" stroke="#ea4087" stroke-width="2"/>
+    <line id="Line_8" data-name="Line 8" x2="9" transform="translate(226.5 1382.5)" fill="none" stroke="#ea4087" stroke-width="2"/>
+    <line id="Line_9" data-name="Line 9" x2="17" transform="translate(226.5 1376.5)" fill="none" stroke="#ea4087" stroke-width="2"/>
+    <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(227 1364)" fill="none" stroke="#ea4087" stroke-width="2">
+      <rect width="23" height="7" stroke="none"/>
+      <rect x="1" y="1" width="21" height="5" fill="none"/>
+    </g>
+    <path id="security-shield-svgrepo-com" d="M50.861,4.1,38.134.023a.475.475,0,0,0-.289,0L25.119,4.1a.4.4,0,0,0-.29.372,30.492,30.492,0,0,0,3.3,13.095c1.7,3.4,4.756,7.939,9.665,10.237a.473.473,0,0,0,.4,0c4.908-2.3,7.965-6.836,9.665-10.237a30.493,30.493,0,0,0,3.3-13.095A.4.4,0,0,0,50.861,4.1Z" transform="translate(210.171 1382.094)" fill="#fff" stroke="#ea4087" stroke-width="2"/>
+    <line id="Line_10" data-name="Line 10" x2="5" y2="5" transform="translate(242.5 1394.5)" fill="none" stroke="#ea4087" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_11" data-name="Line 11" x1="8" y2="10" transform="translate(247.5 1389.5)" fill="none" stroke="#ea4087" stroke-linecap="round" stroke-width="2"/>
+  </g>
+</svg>
