@@ -46,12 +46,12 @@ export default function Nav() {
           >
             Login
           </Link>
-          <a
-            href="/signup"
+          <Link
+            to="/signup"
             className="bg-gray-800 py-2 px-6 rounded hover:bg-gray-700 font-semibold text-xl"
           >
             Signup
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}

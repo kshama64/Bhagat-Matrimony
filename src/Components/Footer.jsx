@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -74,11 +75,13 @@ export default function Footer() {
         </div>
 
         {/* Footer Bottom */}
+        <Link to="https://techxpert.in/">
         <div className="mt-8 border-t border-gray-700 pt-4 text-center">
           <p className="text-lg text-white">
-            © {new Date().getFullYear()} Marriage Bliss. All rights reserved.
+            © {new Date().getFullYear()} Designed By Techxpert.
           </p>
         </div>
+        </Link>
       </div>
     </footer>
   );
